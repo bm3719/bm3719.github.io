@@ -5,26 +5,58 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>&lrm;</title>
+<title>bm3719 GitHub Page</title>
 <meta name="generator" content="Org mode" />
 <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
 </head>
 <body>
 <div id="content">
+<h1 class="title">bm3719 GitHub Page</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org379127b">Hello world</a></li>
+<li><a href="#org50e8d51">Hello, friends</a></li>
+<li><a href="#org5b401d0">Some resources</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org379127b" class="outline-2">
-<h2 id="org379127b">Hello world</h2>
-<div class="outline-text-2" id="text-org379127b">
+
+<div id="outline-container-org50e8d51" class="outline-2">
+<h2 id="org50e8d51">Hello, friends</h2>
+<div class="outline-text-2" id="text-org50e8d51">
 <p>
-Test
+This is an auto-publishing GitHub Pages site, written in Org.  When a commit is
+pushed to the main branch, the CD pipeline will spool up a blank Ubuntu VM,
+install the <code>emacs-nox</code> package on it, start Emacs with no packages, load just
+<code>ox-publish</code> and install the <code>htmlize</code> package, run publish on the project in
+the <code>content/</code> directory, then check in the output to the root directory of the
+same repo but on the <code>gh-pages</code> branch.  This all happens in under 30 seconds.
 </p>
+
+<p>
+The purpose of this repo is to document the infrastructure necessary to do
+this, and also keep tabs on whether this external dependencies necessary for
+this to run remain in existence.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org5b401d0" class="outline-2">
+<h2 id="org5b401d0">Some resources</h2>
+<div class="outline-text-2" id="text-org5b401d0">
+<p>
+As this CD pipeline is specific to the proprietary GitHub Pages and its tech
+stack, I'm not going to load any real content to it for now.  Instead, here's a
+few of my other online resources:
+</p>
+
+<ul class="org-ul">
+<li><a href="https://github.com/bm3719/bm3719.github.io">bm3719.github.io repo</a>: The repository for this site, with the minimal
+infrastructure necessary to make this work.</li>
+<li><a href="https://github.com/bm3719">My GitHub page</a>: My main GitHub page.</li>
+<li><a href="https://macroexpand.com/~bm3719">My personal site</a>: The personal site on my VPS.</li>
+</ul>
 </div>
 </div>
 </div>
