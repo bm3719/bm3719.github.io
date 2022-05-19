@@ -1,3 +1,28 @@
-* Hello world
+#+STARTUP: content
+#+TITLE: bm3719 GitHub Page
+#+OPTIONS: toc:1
+#+OPTIONS: ^:nil
 
-Test
+* Hello, friends
+
+This is an auto-publishing GitHub Pages site, written in Org.  When a commit is
+pushed to the main branch, the CD pipeline will spool up a blank Ubuntu VM,
+install the =emacs-nox= package on it, start Emacs with no packages, load just
+=ox-publish= and install the =htmlize= package, run publish on the project in
+the =content/= directory, then check in the output to the root directory of the
+same repo but on the =gh-pages= branch.  This all happens in under 30 seconds.
+
+The purpose of this repo is to document the infrastructure necessary to do
+this, and also keep tabs on whether this external dependencies necessary for
+this to run remain in existence.
+
+* Some resources
+
+As this CD pipeline is specific to the proprietary GitHub Pages and its tech
+stack, I'm not going to load any real content to it for now.  Instead, here's a
+few of my other online resources:
+
+- [[https://github.com/bm3719/bm3719.github.io][bm3719.github.io repo]]: The repository for this site, with the minimal
+  infrastructure necessary to make this work.
+- [[https://github.com/bm3719][My GitHub page]]: My main GitHub page.
+- [[https://macroexpand.com/~bm3719][My personal site]]: The personal site on my VPS.
